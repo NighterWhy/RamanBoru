@@ -4990,6 +4990,14 @@ section,
 .php-email-form .sent-message { background: #28a745; color: #fff; }
 .d-block { display: block !important; }
 
+.card-content p {
+  color: #fff; /* yazılar beyaz olsun */
+}
+.card-content a,
+.card-content a i {
+  color: #fff !important;
+  text-decoration: none; /* alt çizgiyi kaldırır */
+}
 
 
 
