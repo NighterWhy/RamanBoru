@@ -4975,6 +4975,20 @@ section,
   color: #000;  /* menü yazı rengi */
   padding: 10px 0;
 }
+.php-email-form .loading,
+.php-email-form .error-message,
+.php-email-form .sent-message {
+  display: none;
+  margin-top: 10px;
+  font-size: 14px;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.php-email-form .loading { color: #0d6efd; }
+.php-email-form .error-message { background: #dc3545; color: #fff; }
+.php-email-form .sent-message { background: #28a745; color: #fff; }
+.d-block { display: block !important; }
 
 
 
